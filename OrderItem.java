@@ -40,7 +40,7 @@ public class OrderItem {
         recalculateTotalPrice();
     }
 
-    public void changeMeny(Menu newMenu) {
+    public void changeMenu(Menu newMenu) {
         if (newMenu == null) throw new IllegalArgumentException("newMenu는 null일 수 없습니다.");
         this.menu = newMenu;
         recalculateTotalPrice();
